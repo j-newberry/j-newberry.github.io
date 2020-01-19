@@ -1,0 +1,29 @@
+@media only screen and (min-width:32.5em){
+body {
+    font-size:10pt;
+    text-align:center;
+}
+img {
+    width:500px;
+}
+h1, h2 {
+    text-align: center;
+    background-color: purple; 
+    color: white;
+    font-family: 'Arvo', serif;
+}
+h3 {
+    font-family: 'Arvo', serif; 
+}
+p {
+    text-align: center;
+}
+/* class selectors */
+
+
+/*id selectors*/
+#grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+}
