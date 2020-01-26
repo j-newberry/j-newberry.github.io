@@ -48,7 +48,6 @@ a:hover {
 section{
     margin:0px;
     background-color:#e6ecf2;
-   box-sizing: border-box;
 }
 
 img{
@@ -67,6 +66,7 @@ img{
     padding: 15em;
     padding-bottom: 1em;
     padding-top: 3em;
+    text-align: center;
 }
 
 .title {
