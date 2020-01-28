@@ -30,6 +30,7 @@ header, footer, footer a {
     background-color: purple; 
     color: white;
     font-family: 'Arvo', serif;
+    border-radius: .5em;
 }
 
 img {

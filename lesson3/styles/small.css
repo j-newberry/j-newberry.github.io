@@ -31,7 +31,10 @@ li {
 }
 
 h1 {
-    margin-bottom: 1.5em;
+    max-width: 500px;
+    margin-top: 1em;
+    margin-left: 7.75em;
+    margin-bottom: 1em;
     font-size: 3.5em;
     font-weight: bold;
 }
@@ -46,31 +49,39 @@ a:hover {
 }
 
 section{
-    margin:0px;
+    /* margin:0px; */
     background-color:#e6ecf2;
+    margin: auto;
 }
 
 img{
     max-width: 500px;
 }
 
-.content {
-    background-color:#e6ecf2;
-   box-sizing: border-box;
-}
 .logo {
     max-width: 100px;
 }
 
 .textalign{
-    padding: 15em;
-    padding-bottom: 1em;
-    padding-top: 3em;
     text-align: center;
+    padding: 40px;  
 }
 
+
 .title {
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Special Elite', cursive;
+    margin: 0 auto;
+    margin-top: 1em;
+    margin-left: 8.8em;
+    margin-bottom: .25em;
+}
+
+#personas {
+   margin-bottom: 1em;
+}
+#content {
+    margin: auto;
+    max-width: 500px;
 }
 
 #grid {
@@ -78,5 +89,7 @@ img{
 }
 
 #logo{
-    width: 50px;
+    max-width: 50px;
+    margin-left:43em;
+    margin-top: 0em;
 }

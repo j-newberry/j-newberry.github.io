@@ -1,0 +1,29 @@
+/* html selectors*/
+header {
+    background-color: darkgrey;
+}
+ul {
+list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 80%;
+}
+footer{
+    background-color: hotpink;
+}
+
+
+
+/* id selectors */
+
+
+
+
+
+/* class selectors */
