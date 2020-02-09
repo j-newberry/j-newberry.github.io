@@ -1,0 +1,36 @@
+.grid {
+    display: grid;
+}
+
+img {
+    width: 600px;
+}
+
+nav ul {
+    display: flex;
+
+}
+
+#weathersummary {
+    position: absolute;
+    top: 50px;
+    left: 25px;
+
+}
+
+iframe {
+    display: none;
+}
+
+
+table, tr, th, td {
+    border: 1px solid black;
+}
+
+
+
+
+/* medium */
+iframe {
+    display: none;
+}

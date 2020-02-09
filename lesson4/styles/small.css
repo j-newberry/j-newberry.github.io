@@ -87,8 +87,8 @@ footer {
 #content {
     margin: auto;
     max-width: 500px;
-    padding-top: 20px;
-    padding-bottom: 15x;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #grid {
@@ -100,3 +100,4 @@ footer {
     margin-left:43em;
     margin-top: 0em;
 }
+ 

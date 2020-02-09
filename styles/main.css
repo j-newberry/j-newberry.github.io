@@ -27,7 +27,7 @@ header, main, footer {
 }
 header, footer, footer a {
     text-align: center;
-    background-color: purple; 
+    background-color: #7a9e9f; 
     color: white;
     font-family: 'Arvo', serif;
     border-radius: .5em;
