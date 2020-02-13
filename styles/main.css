@@ -10,14 +10,14 @@ body {
 h1 {
     font-size: 2.4rem ;
     color: #fff; 
-    font-family: 'Pacifico', cursive;
+    font-family: 'Sacramento', cursive;
 }
 
 h2 {
     font-size: 2.0rem; 
     text-align: center;
     border-bottom: 1px solid #bbb;
-    font-family: 'Arvo', serif;
+    font-family: 'Sacramento', cursive;
 }
 
 header, main, footer {
@@ -29,7 +29,7 @@ header, footer, footer a {
     text-align: center;
     background-color: #7a9e9f; 
     color: white;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Sacramento', cursive;
     border-radius: .5em;
 }
 
