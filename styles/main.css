@@ -10,7 +10,7 @@ body {
 h1 {
     font-size: 2.4rem ;
     color: #fff; 
-    font-family: 'Arvo', serif;
+    font-family: 'Pacifico', cursive;
 }
 
 h2 {
@@ -29,7 +29,7 @@ header, footer, footer a {
     text-align: center;
     background-color: #7a9e9f; 
     color: white;
-    font-family: 'Arvo', serif;
+    font-family: 'Pacifico', cursive;
     border-radius: .5em;
 }
 
