@@ -17,7 +17,7 @@ h2 {
     font-size: 2.0rem; 
     text-align: center;
     border-bottom: 1px solid #bbb;
-    font-family: 'Sacramento', cursive;
+    font-family: 'Monteserrat', sans-serif;
 }
 
 header, main, footer {
@@ -29,7 +29,7 @@ header, footer, footer a {
     text-align: center;
     background-color: #7a9e9f; 
     color: white;
-    font-family: 'Sacramento', cursive;
+    font-family: 'Monteserrat', sans-serif;
     border-radius: .5em;
 }
 

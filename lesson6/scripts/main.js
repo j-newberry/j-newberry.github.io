@@ -28,3 +28,14 @@ if (currentDate.getDay() === 5) {
     else {
         aside.style.display = 'none';
     }
+
+
+    //font loader
+
+    WebFont.load({
+        google: {
+          families: [
+             'fontfamilynameofyourchoice'
+          ]
+        }
+      });
