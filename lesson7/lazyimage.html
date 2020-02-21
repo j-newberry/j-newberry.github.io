@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lazy Load</title>
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+    <main>
+        <h1>Lazy Load</h1>
+            <section class="pictures">
+                <picture>
+                    <img src="images/300x400.png" data-src="http://placekitten.com/300/400" alt="kitten">
+                    <img src="images/300x400.png" data-src="http://placekitten.com/301/401" alt="kitten">
+                    <img src="images/300x400.png" data-src="http://placekitten.com/302/402" alt="kitten">
+                    <img src="images/300x400.png" data-src="http://placekitten.com/303/403" alt="kitten">
+                    <img src="images/300x400.png" data-src="http://placekitten.com/304/404" alt="kitten">
+                    <img src="images/300x400.png" data-src="http://placekitten.com/305/405" alt="kitten">
+                </picture>
+            </section>
+        <script src="scripts/lazyimage.js"></script>
+</body>
+</html>
