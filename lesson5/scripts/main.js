@@ -73,7 +73,7 @@ document.querySelector("#windspeed").innerHTML = s + 'mph';/*'10mph'*/;
 
 
 /* pancake */
-const currentDate =  new Date();
+//const currentDate =  new Date();
 const aside = document.querySelector('aside');
 
 if (currentDate.getDay() === 5) {
