@@ -30,21 +30,28 @@
     <main>
         <h1 class="title">Preston</h1>
         <!--HERO AND WEATHER SUMMARY-->
-        <section id="textalign" >
-            <h2 class="herosum"> Weather Summary</h2>
-                 <div class="herosum">
+        <section id="textalign"  class="hero">
+            <article id="summary">
+            <h2> Weather Summary</h2>
+                 <div>
                     <span>current temperature:</span>
                     <span id="currenttemp">40&deg</span>
                 </div>
-                <div class="herosum">
+                <div>
                     <span>Wind speed:</span>
                     <span id="windspeed">40&deg</span>
-                </div class="herosum">
-                <div class="herosum">
+                </div>
+                <div>
                     <span>Wind Chill:</span>
                     <span id="windchill">40&deg</span>
                 </div>
-                <img src="images/rainboots.jpg" alt="heroimg">
+            </article>
+               <!-- <picture>
+                    <source srcset="images/hero-image-small.jpg" media="(max-width: 400px)">
+                    <source srcset="images/hero-image-medium.jpg" media="(max-width: 800px)">
+                    <source srcset="images/hero-image-large.jpg" media="(min-width: 801px)">
+                    <img src="images/hero-image-small.jpg" alt="heroimg">
+                </picture> -->
         </section>
 
         <!--FIVE DAY FORECAST-->

@@ -51,7 +51,7 @@ a:hover {
 section{
     /* margin:0px; */
     background-color:#e6ecf2;
-    margin: auto;
+    margin:0.5em;
 }
 
 img{
@@ -63,10 +63,21 @@ footer {
     margin: auto;
     max-width: 500px;
 }
-table {
+table, tr, th, td {
     max-width: 500px;
     margin: auto;
+    border: 2px solid #7a9e9f;
+    border-collapse: collapse;
+    padding:5px;
+    font-size: 12px;
 }
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+
 
 .logo {
     max-width: 100px;
@@ -86,25 +97,30 @@ table {
     margin-bottom: .25em;
 }
 
-.herosum {
+
+#summary {
     background-color:#e6ecf2 ;
-    width: 500px;
+    max-width: 200px;
+    height:120px;
     margin:15px;
+    padding: 5px 15px 15px 15px;
+    font-size: 13px;
 
 }
 
 .forecast {
     max-width: 500px;
-    margin:auto;
+    margin: auto;
     padding:10px;
-    margin-bottom: 15px;
+    text-align: center;
 }
 
 .article {
-    max-width: 500px;
-    margin: auto;
+    background-color:#e6ecf2 ;
     padding:10px;
     margin-bottom: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .contact {
@@ -112,6 +128,34 @@ table {
     margin-bottom:15px;
 }
 
+.hero {
+    display: block;
+    height: 500px;
+    background-image: url(/lesson6/images/hero-image-small.jpg);
+    background-size: cover;
+    padding: 10px;
+
+}
+
+.articleinfo {
+    grid-column: 1/2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  
+}
+
+.article_title {
+    margin: 10px;
+}
+
+.contactaddress{
+   margin-left: 100px;
+   margin-bottom: 50px;
+}
+
+.contact-title {
+    text-align: center;
+}
 
 #personas {
    margin-bottom: 1em;
@@ -131,5 +175,13 @@ table {
     max-width: 50px;
     margin-left:43em;
     margin-top: 0em;
+}
+
+#article_img {
+    grid-column: 2/3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: block;
+    margin: auto;
 }
  

@@ -1,4 +1,12 @@
 @media only screen and (min-width:64em){
     
+    .hero {
+        display: block;
+        height: 500px;
+        background-image: url(/lesson6/images/hero-image-large.jpg);
+        background-size: cover;
+        padding: 10px;
+    
+    }
 }
 
