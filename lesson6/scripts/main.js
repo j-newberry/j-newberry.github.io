@@ -1,3 +1,57 @@
+//*Wednesday, 20 May 2020 */
+/* declare date variable*/
+let currentDate = new Date();
+let fullDate;
+
+/*day of week */
+let daysOfWeek = [ 
+    'Sunday',
+    'Monday',
+    'Tuesday',
+    'Wednesday',
+    'Thursday',
+    'Friday',
+    'Saturday'
+];
+
+let dayOfWeek = currentDate.getDay();
+fullDate = daysOfWeek[dayOfWeek];
+
+/* day of month*/
+
+let dayOfMonth = currentDate.getDate();
+fullDate += ', ' + dayOfMonth;
+
+/*month*/
+
+let months = [
+    'January',
+    'February',
+    'March',
+    'April',
+    'May',
+    'June',
+    'July',
+    'August',
+    'September',
+    'October',
+    'November',
+    'Decemeber'
+];
+fullDate += ' ' +  months[currentDate.getMonth()];
+
+/*year*/
+let year = currentDate.getFullYear();
+fullDate += ' ' + year;
+
+/* full date */ 
+document.querySelector('#current-date').textContent = fullDate;
+
+
+
+
+
+
 /*weather summary*/
 
 let f, t, s;
@@ -19,7 +73,7 @@ document.querySelector("#windspeed").innerHTML = s + 'mph';/*'10mph'*/;
 
 
 /* pancake */
-const currentDate =  new Date();
+//const currentDate =  new Date();
 const aside = document.querySelector('aside');
 
 if (currentDate.getDay() === 5) {
@@ -28,6 +82,7 @@ if (currentDate.getDay() === 5) {
     else {
         aside.style.display = 'none';
     }
+
 
 
     //font loader
