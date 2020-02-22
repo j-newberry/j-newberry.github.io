@@ -1,4 +1,18 @@
+img[data-src] {
+    filter: blur(0.2em);
+}
+
+img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
 .pictures {
     display: grid;
     grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+h1 {
+    text-align: center;
 }

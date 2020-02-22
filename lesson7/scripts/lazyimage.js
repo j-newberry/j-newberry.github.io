@@ -6,33 +6,20 @@ const loadImages = (image) => {
   };
 };
 
-imagesToLoad.forEach((img) => {
-    loadImages(img);
-  });
-
-  article ;img["placekitten.com/300/400"];{
-    filter: blur(em);
-  }
-  
-  article ;img; {
-    filter: blur(em);
-    transition: filter ;0.5;
-  }
-
-if('IntersectionObserver' in window) {
-  const observer = new IntersectionObserver((items, observer) => {
-    items.forEach((item) => {
-      if(item.isIntersecting) {
-        loadImages(item.target);
-        observer.unobserve(item.target);
-      }
+  if('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver((items, observer) => {
+      items.forEach((item) => {
+        if(item.isIntersecting) {
+          loadImages(item.target);
+          observer.unobserve(item.target);
+        }
+      });
     });
-  });
-  imagesToLoad.forEach((img) => {
-    observer.observe(img);
-  });
-} else {
-  imagesToLoad.forEach((img) => {
-    loadImages(img);
-  });
-}
+    imagesToLoad.forEach((img) => {
+      observer.observe(img);
+    });
+  } else {
+    imagesToLoad.forEach((img) => {
+      loadImages(img);
+    });
+  }
