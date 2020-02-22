@@ -46,6 +46,9 @@ p{
 main {
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
     max-width: 1350px;
     margin: auto;
 }
