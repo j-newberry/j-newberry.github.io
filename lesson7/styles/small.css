@@ -45,8 +45,7 @@ p{
 
 main {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     max-width: 1350px;
@@ -206,7 +205,7 @@ div.weatherphoto {
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
     margin-bottom: 15px;
 }
-div.container {
+div.weatherphoto p {
     text-align: center;
     padding-top: 1px;
 }
