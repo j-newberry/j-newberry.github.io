@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Preston</title>
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+    <header>
+       <aside>
+           <p>
+            Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.
+           </p>
+       </aside>
+    </header>
+        <nav>
+            <ul>
+                <li>&equiv;</li>
+                <li><a href="preston-4.html">Home</a> </li>
+                <li><a href="preston-5.html">Preston</a></li>
+                <li> <a href="#">Soda Springs</a></li>
+                <li> <a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li> <a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+
+    <main>
+        <h1 class="title">Preston</h1>
+        <!--HERO AND WEATHER SUMMARY-->
+        <section id="textalign"  class="hero">
+            <article id="summary">
+            <h2> Weather Summary</h2>
+                 <div>
+                    <span>current temperature:</span>
+                    <span id="currenttemp">40&deg</span>
+                </div>
+                <div>
+                    <span>Wind speed:</span>
+                    <span id="windspeed">40&deg</span>
+                </div>
+                <div>
+                    <span>Wind Chill:</span>
+                    <span id="windchill">40&deg</span>
+                </div>
+            </article>
+        </section>
+
+        <!--FIVE DAY FORECAST-->
+        <section id="textalign">
+            <section  class="forecast">
+                <h2> Five Day Forecast</h2>
+                <table id="fiveforecast">
+                    <thead>
+                        <tr>
+                        <th id="day1">Day 1</th>
+                        <th id="day2">Day 2</th>
+                        <th id="day3">Day 3</thid="day1">
+                        <th id="day4">Day 4</th>
+                        <th id="day5">Day 5</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="temp1">50&deg;</td>
+                            <td id="temp2">50&deg;</td>
+                            <td id="temp3">50&deg;</td>
+                            <td id="temp4">50&deg;</td>
+                            <td id="temp5">50&deg;</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </section>
+
+
+        <section id="textalign" class="article">
+            <h2 id="content" class="article_title">article</h2>
+            <p id="content" class="articleinfo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, natus placeat officia provident consequuntur maiores id similique dolore, temporibus adipisci repellat excepturi officiis? Atque illum, quisquam cupiditate aspernatur modi maiores!</p>
+            <img src="images/umbrellaimg.jpg" alt="artilceimg" id="article_img">
+        </section>
+
+        <!--CONTACT US-->
+        <section id="textalign">
+            <h2 id="content" class="contact-title">contact</h2>
+                <address id="address" class="contactaddress">
+                    Drizzle & Drip <br>
+                    S 2nd W <br>
+                    Rexburg, ID 83440 <br>
+                    1-234-5678 <br>
+                    drizzle&drip@domain.com
+                </address>
+                <iframe  class="contactaddress" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2878.490168283704!2d-111.79210598450688!3d43.82493354932663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540bac8b23d411%3A0x1c6d9cefb42a59a!2sSodaVine!5e0!3m2!1sen!2sus!4v1581010119807!5m2!1sen!2sus" width="30%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </section>
+    </main>
+    <footer>
+    &copy; Drizzle & Drip | <span id="current-date"></span> | Jessica Newberry
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
