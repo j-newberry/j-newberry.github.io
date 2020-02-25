@@ -1,4 +1,4 @@
-/*Wednesday, 20 May 2020 */
+console.log("HELLO");
 /* declare date variable*/
 let currentDate = new Date();
 let fullDate;
