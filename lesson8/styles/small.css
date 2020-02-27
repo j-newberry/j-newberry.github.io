@@ -77,7 +77,14 @@ th {
     vertical-align: inherit;
 }
 
+div {
+    margin: 1em;
+    padding-left: 1em;
+}
 
+textarea {
+    margin-top: 1em;
+}
 
 .logo {
     max-width: 100px;
