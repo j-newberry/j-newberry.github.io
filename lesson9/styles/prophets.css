@@ -1,0 +1,36 @@
+article {
+    background-color: #d7d6f9;
+    margin: 5px;
+    padding: 8px;
+    text-align: center;
+    border: solid 1px purple;
+}
+
+img {
+    width: 200px;
+    box-shadow: 0 0 15px black;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+h1 {
+    text-align: center;
+    color: #6b6396;
+    font-family: 'Patua One', cursive;
+
+}
+
+@media only screen and (min-width:32.5em) {
+    section {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width:60em) {
+    section {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
