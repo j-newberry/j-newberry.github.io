@@ -93,6 +93,7 @@ fetch(apiUrlWeather)
         }
         document.getElementById("currentTemp").innerHTML = currentTemp.toFixed(0) + '&deg;';
         document.getElementById("windSpeed").innerHTML = windSpeed.toFixed(0) + ' mph';
+        document.querySelector('#humidity').textContent = jsObject.main.humidity + '%';
 
         if (windChill == 0) {
             document.getElementById("windChill").innerHTML = 'N/A';
@@ -147,9 +148,17 @@ fetch(apiUrlWeather)
                     document.getElementById(`temp${counter}`)
                         .innerHTML = forecast.main.temp.toFixed(0) + '&deg';
 
+                    let weatherIcon = document.getElementById(`icon${counter}`);
+                    let image = 'https://openweathermap.org/img/w/' + forecast.weather[0].icon + '.png';
+                    let alt = forecast.weather[0].description;
+                     weatherIcon.setAttribute('src', image);
+                     weatherIcon.setAttribute('alt', alt);
+
                     counter++; 
 
                  }
              });
      });
-   
+     
+
+           
