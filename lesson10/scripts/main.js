@@ -48,14 +48,36 @@ fullDate += ' ' + year;
 document.querySelector('#current-date').textContent = fullDate;
 
 
+ //font loader
 
+   /* WebFont.load({
+        google: {
+          families: [
+             'fontfamilynameofyourchoice'
+          ]
+        }
+      });
+      */
+
+
+
+/* pancake */
+//const currentDate =  new Date();
+const aside = document.querySelector('aside');
+
+if (currentDate.getDay() === 5) {
+    aside.style.display = 'block';
+}
+    else {
+        aside.style.display = 'none';
+    }
 
 
 
 /*weather summary*/
 
-const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=aea8abccbeb560253b793ee4faf83aa6&units=imperial'
-fetch(apiURL)
+const apiUrlWeather = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=aea8abccbeb560253b793ee4faf83aa6&units=imperial'
+fetch(apiUrlWeather)
 .then(response => response.json())
 .then(
     jsObject => {
@@ -92,40 +114,42 @@ fetch(apiURL)
 );
 
 
-/*let f, t, s;
-t = 50;
-s = 10;
+/* 5 day forecast */
 
+/*const daysOfWeek = [ 
+    'Sunday',
+    'Monday',
+    'Tuesday',
+    'Wednesday',
+    'Thursday',
+    'Friday',
+    'Saturday'
+];
+*/
 
+ const apiUrlForecast = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=aea8abccbeb560253b793ee4faf83aa6&units=imperial'
 
+ fetch(apiUrlForecast)
+ .then(response => response.json())
+ .then(
+     jsObject => {
+         let counter = 1;
 
+         jsObject.list.forEach(
+             forecast => {
+                 if(forecast.dt_txt.includes('18:00')){
+                    let forecastDate = new Date(forecast.dt_txt.replace(' ', 'T'));
+                    let dayOfWeek = daysOfWeek[forecastDate.getDay()];
+                   
+                    document.getElementById(`day${counter}`)
+                        .textContent = dayOfWeek;
 
+                    document.getElementById(`temp${counter}`)
+                        .innerHTML = forecast.main.temp.toFixed(0) + '&deg';
 
+                    counter++; 
 
-
-
-
-
-/* pancake */
-//const currentDate =  new Date();
-const aside = document.querySelector('aside');
-
-if (currentDate.getDay() === 5) {
-    aside.style.display = 'block';
-}
-    else {
-        aside.style.display = 'none';
-    }
-
-
-
-    //font loader
-
-   /* WebFont.load({
-        google: {
-          families: [
-             'fontfamilynameofyourchoice'
-          ]
-        }
-      });
-      */
+                 }
+             });
+     });
+   
