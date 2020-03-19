@@ -1,0 +1,202 @@
+nav {
+    background-color:#e6ecf2;
+}
+
+nav ul {
+    display:flex;
+    margin:0px;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 0px;
+    margin-right: 8.5em;
+    padding-bottom: 1em;
+    margin-top: .5em;
+}
+
+nav a {
+    color: black;
+    font-family: 'Monteserrat', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Monteserrat', sans-serif;
+    background-color:#93b7be;
+    margin: 0px;
+}
+
+li {
+    padding-top: 1em; padding-bottom: 1em;
+}
+
+h1 {
+    max-width: 500px;
+    margin-top: 1em;
+    margin-left: 7.75em;
+    margin-bottom: 1em;
+    font-size: 3.5em;
+    font-weight: bold;
+}
+
+p{
+    font-weight: 125;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    max-width: 1350px;
+    margin: auto;
+}
+
+a:hover {
+    border-bottom-style: solid;
+    border-bottom-color:#7a9e9f;
+}
+
+section{
+    /* margin:0px; */
+    background-color:#e6ecf2;
+    margin:0.5em;
+}
+
+img {
+    height: 250px;
+    width: 370px;
+    padding: 15px 15px 0px 15px;
+}
+
+footer {
+    margin: auto;
+    max-width: 500px;
+}
+/*
+table, tr, th, td {
+    max-width: 500px;
+    margin: auto;
+    border: 2px solid #7a9e9f;
+    border-collapse: collapse;
+    padding:5px;
+    font-size: 12px;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+
+
+.logo {
+    max-width: 100px;
+}
+*/
+
+.textalign{
+    text-align: center;
+    padding: 40px;  
+}
+
+
+.title {
+    font-family: 'Special Elite', cursive;
+    margin: 0 auto;
+    margin-top: 1em;
+    margin-left: 8.8em;
+    margin-bottom: .25em;
+}
+
+/*
+#summary {
+    background-color:#e6ecf2 ;
+    max-width: 200px;
+    height:120px;
+    margin:15px;
+    padding: 5px 15px 15px 15px;
+    font-size: 13px;
+
+}
+
+.forecast {
+    max-width: 500px;
+    margin: auto;
+    padding:10px;
+    text-align: center;
+}
+
+.article {
+    background-color:#e6ecf2 ;
+    padding:10px;
+    margin-bottom: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact {
+    padding:10px;
+    margin-bottom:15px;
+}
+
+.hero {
+    display: block;
+    height: 500px;
+    background-image: url(/lesson5/images/rainboots.jpg);
+    background-size: cover;
+    padding: 10px;
+
+}
+
+.articleinfo {
+    grid-column: 1/2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  
+}
+
+.article_title {
+    margin: 10px;
+}
+
+.contactaddress{
+   margin-left: 100px;
+   margin-bottom: 50px;
+}
+
+.contact-title {
+    text-align: center;
+}
+
+#personas {
+   margin-bottom: 1em;
+}
+#content {
+    margin: auto;
+    max-width: 500px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#grid {
+    display: grid;
+}
+*/
+
+#logo{
+    max-width: 50px;
+    margin-left:43em;
+    margin-top: 0em;
+}
+
+div.weatherphoto {
+    width: 400px;
+    background-color: #e6ecf2;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+    margin-bottom: 15px;
+}
+div.weatherphoto p {
+    text-align: center;
+    padding-top: 1px;
+}

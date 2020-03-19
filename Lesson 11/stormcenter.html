@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Storm Center</title>
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+    <header>
+       <aside>
+           <p>
+            Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.
+           </p>
+       </aside>
+    </header>
+        <nav>
+            <ul>
+                <li>&equiv;</li>
+                <li><a href="index.html">Home</a> </li>
+                <li><a href="preston.html">Preston</a></li>
+                <li> <a href="sodasprings.html">Soda Springs</a></li>
+                <li> <a href="fishhaven.html">Fish Haven</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li> <a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+
+    <main>
+        <h1 class="title">Storm Center</h1>
+        <form action="thanks.html" method="GET">
+            <div class="storm">
+                <!--Name-->
+                <label for="fullName">Full Name: </label>
+                <input type="text" id="fullName" name="fullName" required>
+            </div>  
+            <div class="storm">
+                <!--Email-->
+                <label for="email">Email: </label>
+                <input type="text" id="email" name="email" placeholder="example@domain.com">
+            </div>  
+            <div class="storm">
+                <!--Phone-->
+                <label for="phone">Phone Number: </label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="storm">
+                <!--Zip-->
+                <label for="zipCode">Zip Code: </label>
+                <input type="number" id="zipCode" name="zipCode" required>
+            </div>
+            <div class="storm">
+                <!--storm date-->
+                <label for="stormDate">Storm Date: </label>
+                <input type="date" id="stormDate" name="stormDate">
+            </div>
+            <div class="storm">
+                <!--storm type-->
+                <label for="stormType">Storm Type: </label>
+                <input list="stormType">
+                <datalist id="stormType">
+                    <option value="Flash Flood">
+                    <option value="Hail">
+                    <option value="Hurricane">
+                    <option value="Thunderstorm">
+                    <option value="Tornado">
+                </datalist>
+             
+            </div>
+            <div class="storm">
+                <!--Storm Severity-->
+                <label for="stormSeverity">Storm Severity: </label>
+                <input type="range" id="stormSeverity" name="stormSeverity" min="1" max="10" step="1" 
+                oninput="adjustRating(this.value)"
+                onchange="adjustRating(this.value)">
+                <span id="rating"></span>
+            </div>
+            <div class="storm">
+                <!--Storm Region-->
+                <label for="stormRegion">Storm Region: </label>
+                <select name="stormRegion" id="stormRegion">
+                    <option value="" selected disabled>Select Region...</option>
+                    <option value="preston">Preston</option>
+                    <option value="sodaSprings">Soda Springs</option>
+                    <option value="fishHaven">Fish Haven</option>
+
+                </select>
+
+            </div>  
+            <div class="storm">
+                <!--user in danger level-->
+                <label for="dangerLevel">Are you in danger? </label> 
+                <input type="radio" id="dangerLevel" name="dangerLevel" value="Yes">
+                    <label for="dangerLevel">Yes</label>
+                <input type="radio" id="dangerLevel" name="dangerLevel" value="No">
+                    <label for="dangerLevel">No</label>
+            </div> 
+            <div class="storm">
+                <!--additional info/comments-->
+                <label for="addComments">Additional Information/Comments: </label> <br>
+                <textarea name="addComments" id="addComments" cols="50" rows="10"></textarea>
+            </div> 
+            <div class="storm">
+                <!--Submit Button-->
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+    
+    </main>
+    <footer>
+    &copy; Drizzle & Drip | <span id="current-date"></span> | Jessica Newberry
+    </footer>
+    <script src="scripts/main.js "></script>
+    <script src="scripts/rating.js"></script>
+</body>
+</html>

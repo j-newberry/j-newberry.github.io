@@ -1,0 +1,11 @@
+@media only screen and (min-width:64em){
+    #cities {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-content: center;
+        margin-left: 75px;
+        margin-bottom: 20px;
+    }
+    
+}
+
