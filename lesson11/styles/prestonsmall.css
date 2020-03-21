@@ -56,8 +56,11 @@ section{
 }
 
 img{
-    max-width: 500px;
-    margin:auto;
+   /* max-width: 500px;
+    margin:auto;*/
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer {
@@ -188,12 +191,12 @@ th {
      margin-top: 0em;
  }
 
-#article_img {
+/*#article_img {
     width: 84%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
+}*/
 
 #tagline {
     max-width: 500px;
