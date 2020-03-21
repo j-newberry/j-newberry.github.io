@@ -12,16 +12,19 @@
     <link rel="stylesheet" href="styles/large.css">
 </head>
 <body>
+    <body onload="getEvents('fish haven')"></body>
     <header>
+        <aside>
+            <p id="pancakes">
+             Saturday = Family Fishing! Meet 9:00 a.m. Saturday at the city park pavilion.
+            </p>
+        </aside>
+
         <h1 class="title">Drizzle & Drip</h1>
         <img src="images/iconfinder_sun_727676.png" alt="logo" id="logo">
         <p id = "tagline">Drizzle, drip, or shine - we'll let you know!</p>
     
-       <aside>
-           <p>
-            Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.
-           </p>
-       </aside>
+       
     </header>
 
         <nav>
@@ -97,7 +100,13 @@
             </section>
         </section>
 
+        <!--EVENTS-->
+        <section class="sections">
+            <h2 id="eventstitle">Upcoming Events:</h2>
+            <ul id="events"></ul>
+        </section>
 
+        <!--ARTICLE-->
         <section id="textalign" class="article">
             <h2 id="content" class="article_title">article</h2>
             <p id="content" class="articleinfo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, natus placeat officia provident consequuntur maiores id similique dolore, temporibus adipisci repellat excepturi officiis? Atque illum, quisquam cupiditate aspernatur modi maiores!</p>
@@ -120,6 +129,7 @@
     <footer>
     &copy; Drizzle & Drip | <span id="current-date"></span> | Jessica Newberry
     </footer>
-    <script src="scripts/main.js"></script>
+    <script src="scripts/fishhavenmain.js"></script>
+    <script src="scripts/towndata.js"></script>
 </body>
 </html>

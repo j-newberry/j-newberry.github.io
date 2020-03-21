@@ -22,7 +22,7 @@ nav a {
 
 body {
     font-family: 'Monteserrat', sans-serif;
-    background-color:#95C9C0;
+    background-color:#83AD9E;
     margin: 0px;
 }
 
@@ -63,6 +63,7 @@ img{
 footer {
     margin: auto;
     max-width: 500px;
+    padding-top: 1.5em;
 }
 table, tr, th, td {
     max-width: 500px;
@@ -76,6 +77,18 @@ table, tr, th, td {
 th {
     display: table-cell;
     vertical-align: inherit;
+}
+
+form {
+    text-align: center;
+    background-color:#e6ecf2 ;
+    max-width: 350px;
+    max-height: 1000px;
+    margin: auto;
+    padding: 1em;
+    border-radius: 8px;
+   
+    
 }
 
 /* class selectors */
@@ -96,7 +109,7 @@ th {
     max-width: 350px;
     margin: auto;
     padding-top: 0.5em;
-    padding-bottom: 0.5em;
+   
 }
 
 .storm {
