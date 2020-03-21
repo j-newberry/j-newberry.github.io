@@ -1,0 +1,21 @@
+ h1, p {
+    text-align: center;
+}
+h1 {
+    max-width: 400px;
+    margin: auto;
+    font-family: 'Shadows Into Light', cursive;
+    padding-top: 50px;
+
+}
+p {
+    padding: 65px;
+   margin: auto;
+    max-width: 200px;
+    background-color:#e6ecf2;
+    border-radius: 25px;
+}
+footer {
+   margin-top: 400px;
+   align-content: center;
+}

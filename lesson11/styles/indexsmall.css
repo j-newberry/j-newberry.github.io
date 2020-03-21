@@ -1,0 +1,240 @@
+nav {
+    background-color:#e6ecf2;
+}
+
+nav ul {
+    display:flex;
+    margin:0px;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 0px;
+    margin-right: 8.5em;
+    padding-bottom: 1em;
+    margin-top: .5em;
+}
+
+nav a {
+    color: black;
+    font-family: 'Monteserrat', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Monteserrat', sans-serif;
+    background-color:#95C9C0;
+    margin: 0px;
+}
+
+li {
+    padding-top: 1em; padding-bottom: 1em;
+}
+
+h1 {
+    max-width: 500px;
+    margin: auto;
+   /* margin-top: 1em;
+    margin-left: 7.75em;
+    margin-bottom: 1em;*/
+    font-size: 3.5em;
+    font-weight: bold;
+}
+
+
+p{
+    font-weight: 125;
+}
+
+a:hover {
+    border-bottom-style: solid;
+    border-bottom-color:#7a9e9f;
+}
+
+/*section{
+    
+    background-color:#e6ecf2;
+    margin:0.5em;
+}*/
+
+
+
+img{
+    max-width: 500px;
+    margin:auto;
+}
+
+footer {
+    margin: auto;
+    max-width: 500px;
+}
+table, tr, th, td {
+    max-width: 500px;
+    margin: auto;
+    border: 2px solid #7a9e9f;
+    border-collapse: collapse;
+    padding:5px;
+    font-size: 12px;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+div {
+    margin: 1em;
+    padding-left: 1em;
+}
+
+textarea {
+    margin-top: 1em;
+}
+
+article {
+    text-align: center;
+    background-color:#e6ecf2 ;
+    max-width: 350px;
+    max-height: 450px;
+    align-content: center;
+    margin: 10px;
+}
+
+
+/*class selectors*/
+
+#logo {
+   max-width: 50px;
+    margin-left:43em;
+    margin-top: 0em;
+}
+
+.textalign{
+    text-align: center;
+    padding: 40px;  
+}
+
+
+.title {
+    font-family: 'Shadows Into Light', cursive;
+    max-width: 350px;
+    margin: auto;
+    padding-top: 0.5em;
+}
+
+
+#summary {
+    background-color:#e6ecf2 ;
+    max-width: 200px;
+    height:120px;
+    margin:15px;
+    padding: 5px 15px 15px 15px;
+    font-size: 13px;
+
+}
+
+.forecast {
+    max-width: 500px;
+    margin: auto;
+    padding:10px;
+    text-align: center;
+}
+
+.article {
+    background-color:#e6ecf2 ;
+    padding:20px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.hero {
+    display: block;
+    height: 500px;
+    background-image: url(/lesson5/images/rainboots.jpg);
+    background-size: cover;
+    padding: 10px;
+
+}
+
+.articleinfo {
+    grid-column: 1/2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  
+}
+
+.article_title {
+    margin: 10px;
+}
+
+.contactaddress{
+   margin-left: 100px;
+   margin-bottom: 50px;
+}
+
+.contact-title {
+    text-align: center;
+}
+
+.contact {
+    background-color:#e6ecf2;
+    margin:0.5em;
+}
+
+/*id selectors*/
+
+#personas {
+   margin-bottom: 1em;
+}
+#content {
+    margin: auto;
+    max-width: 500px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#grid {
+    display: grid;
+    
+}
+
+
+
+#article_img {
+    grid-column: 2/3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: block;
+    margin: auto;
+}
+
+#cities {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+    margin-left: 75px;
+}
+ 
+#fishHavenImage {
+    max-width: 300px;
+    
+}
+
+#prestonImage {
+    max-width: 300px;
+}
+
+#sodaSpringsImage {
+    max-width: 300px;
+    
+}
+
+#tagline {
+    max-width: 500px;
+    margin-left: 550px;
+    padding-bottom: 0.5em;
+}
+

@@ -22,11 +22,11 @@ nav a {
 
 body {
     font-family: 'Monteserrat', sans-serif;
-    background-color:#93b7be;
+    background-color:#95C9C0;
     margin: 0px;
 }
 
-li {
+nav li {
     padding-top: 1em; padding-bottom: 1em;
 }
 
@@ -45,14 +45,15 @@ p{
 
 a:hover {
     border-bottom-style: solid;
-    border-bottom-color:#7a9e9f;
+    border-bottom-color:#3E6857;
 }
 
-/*section{
-    
+section{
+    /* margin:0px; */
     background-color:#e6ecf2;
-    margin:0.5em;
-}*/
+    margin:1em;
+    
+}
 
 img{
     max-width: 500px;
@@ -66,7 +67,7 @@ footer {
 table, tr, th, td {
     max-width: 500px;
     margin: auto;
-    border: 2px solid #7a9e9f;
+    border: 2px solid #3E6857;
     border-collapse: collapse;
     padding:5px;
     font-size: 12px;
@@ -77,25 +78,7 @@ th {
     vertical-align: inherit;
 }
 
-div {
-    margin: 1em;
-    padding-left: 1em;
-}
-
-textarea {
-    margin-top: 1em;
-}
-
-article {
-    text-align: center;
-    background-color:#e6ecf2 ;
-    max-width: 350px;
-    max-height: 550px;
-    align-content: center;
-}
-
-
-/*class selectors*/
+/* class selectors */
 
 .logo {
     max-width: 100px;
@@ -106,24 +89,18 @@ article {
     padding: 40px;  
 }
 
-
 .title {
-    font-family: 'Special Elite', cursive;
-    margin: 0 auto;
-    margin-top: 1em;
-    margin-left: 8.8em;
-    margin-bottom: .25em;
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    max-width: 350px;
+    margin: auto;
+    padding-bottom: 0.5em;
 }
 
-
-#summary {
-    background-color:#e6ecf2 ;
-    max-width: 200px;
-    height:120px;
-    margin:15px;
-    padding: 5px 15px 15px 15px;
-    font-size: 13px;
-
+.storm {
+    margin: 5px;
+    padding: 5px;
+    display: block;
 }
 
 .forecast {
@@ -141,13 +118,18 @@ article {
     grid-template-columns: 1fr 1fr;
 }
 
+.contact {
+    padding:10px;
+    margin-bottom:15px;
+}
 
 .hero {
     display: block;
-    height: 500px;
-    background-image: url(/lesson5/images/rainboots.jpg);
+    height: 350px;
+    background-image: url(/lesson11/images/prestonhero.jpg);
     background-size: cover;
     padding: 10px;
+   
 
 }
 
@@ -171,12 +153,20 @@ article {
     text-align: center;
 }
 
-.contact {
-    background-color:#e6ecf2;
-    margin:0.5em;
-}
 
 /*id selectors*/
+
+#summary {
+    background-color:#e6ecf2 ;
+    opacity: 80%;
+    max-width: 200px;
+    height:auto;
+    margin:15px;
+    padding: 5px 15px 15px 15px;
+    font-size: 13px;
+    border-radius: 8px;
+
+}
 
 #personas {
    margin-bottom: 1em;
@@ -190,14 +180,13 @@ article {
 
 #grid {
     display: grid;
-    
 }
 
-#logo{
+#logo {
     max-width: 50px;
-    margin-left:43em;
-    margin-top: 0em;
-}
+     margin-left:43em;
+     margin-top: 0em;
+ }
 
 #article_img {
     grid-column: 2/3;
@@ -207,25 +196,26 @@ article {
     margin: auto;
 }
 
-#cities {
-    display: grid;
-    grid-template-columns: 1fr;
-    align-content: center;
-    margin-left: 75px;
+#tagline {
+    max-width: 500px;
+    margin-left: 550px;
+    padding-bottom: 0.5em;
 }
  
-#fishHavenImage {
-    max-width: 350px;
-    max-height: 300px;
+#events {
+    text-align: center;
+    list-style: none;
+    padding-top: 0px;
+    padding-bottom: 1em;
+
 }
 
-#prestonImage {
-    max-width: 300px;
+#eventstitle {
+    text-align: center;
+    padding-bottom: 0px;
 }
 
-#sodaSpringsImage {
-    max-width: 350px;
-    max-height: 290px;
+#pancakes {
+    text-align: center;
+    color: rgb(150, 7, 50);
 }
-
-

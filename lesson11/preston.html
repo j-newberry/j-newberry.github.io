@@ -5,23 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Preston</title>
-    <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">  
-    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/prestonsmall.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
 </head>
-<body>
+ <body onload="getEvents('preston')"></body>
     <header>
        <aside>
-           <p>
+           <p id="pancakes">
             Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.
            </p>
        </aside>
     </header>
-        <nav>
+    <h1 class="title">Drizzle & Drip</h1>
+    <img src="images/iconfinder_sun_727676.png" alt="logo" id="logo">
+    <p id = "tagline">Drizzle, drip, or shine - we'll let you know!</p>
+            <nav>
             <ul>
-                <li>&equiv;</li>
                 <li><a href="index.html">Home</a> </li>
                 <li><a href="preston.html">Preston</a></li>
                 <li> <a href="sodasprings.html">Soda Springs</a></li>
@@ -30,11 +32,10 @@
                 <li> <a href="gallery.html">Gallery</a></li>
             </ul>
         </nav>
-
-    <main>
         <h1 class="title">Preston</h1>
+    <main>
         <!--HERO AND WEATHER SUMMARY-->
-        <section id="textalign"  class="hero">
+        <section id="textalign"  class="hero" class="sections">
             <article id="summary">
             <h2> Weather Summary</h2>
                 <div>
@@ -61,7 +62,7 @@
         </section>
 
         <!--FIVE DAY FORECAST-->
-        <section id="textalign">
+        <section id="textalign" class="sections">
             <section  class="forecast">
                 <h2> Five Day Forecast</h2>
                 <table id="fiveforecast">
@@ -93,8 +94,13 @@
                 </table>
             </section>
         </section>
+        <!--EVENTS-->
+        <section class="sections">
+            <h2 id="eventstitle">Upcoming Events:</h2>
+            <ul id="events"></ul>
+        </section>
 
-
+        <!--ARTICLE-->
         <section id="textalign" class="article">
             <h2 id="content" class="article_title">article</h2>
             <p id="content" class="articleinfo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, natus placeat officia provident consequuntur maiores id similique dolore, temporibus adipisci repellat excepturi officiis? Atque illum, quisquam cupiditate aspernatur modi maiores!</p>
@@ -102,7 +108,7 @@
         </section>
 
         <!--CONTACT US-->
-        <section id="textalign">
+        <section id="textalign" class="sections">
             <h2 id="content" class="contact-title">contact</h2>
                 <address id="address" class="contactaddress">
                     Drizzle & Drip <br>
@@ -118,5 +124,6 @@
     &copy; Drizzle & Drip | <span id="current-date"></span> | Jessica Newberry
     </footer>
     <script src="scripts/main.js"></script>
+    <script src="scripts/towndata.js"></script>
 </body>
 </html>

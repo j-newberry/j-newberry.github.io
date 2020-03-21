@@ -22,11 +22,11 @@ nav a {
 
 body {
     font-family: 'Monteserrat', sans-serif;
-    background-color:#93b7be;
+    background-color:#80C9BC;
     margin: 0px;
 }
 
-li {
+nav li {
     padding-top: 1em; padding-bottom: 1em;
 }
 
@@ -43,41 +43,31 @@ p{
     font-weight: 125;
 }
 
-main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-    max-width: 1350px;
-    margin: auto;
-}
-
 a:hover {
     border-bottom-style: solid;
-    border-bottom-color:#7a9e9f;
+    border-bottom-color:#3E6857;
 }
 
 section{
     /* margin:0px; */
     background-color:#e6ecf2;
-    margin:0.5em;
+    margin:1em;
+    
 }
 
-img {
-    height: 250px;
-    width: 370px;
-    padding: 15px 15px 0px 15px;
+img{
+    max-width: 500px;
+    margin:auto;
 }
 
 footer {
     margin: auto;
     max-width: 500px;
 }
-/*
 table, tr, th, td {
     max-width: 500px;
     margin: auto;
-    border: 2px solid #7a9e9f;
+    border: 2px solid #3E6857;
     border-collapse: collapse;
     padding:5px;
     font-size: 12px;
@@ -88,12 +78,11 @@ th {
     vertical-align: inherit;
 }
 
-
+/* class selectors */
 
 .logo {
     max-width: 100px;
 }
-*/
 
 .textalign{
     text-align: center;
@@ -102,22 +91,18 @@ th {
 
 
 .title {
-    font-family: 'Special Elite', cursive;
-    margin: 0 auto;
-    margin-top: 1em;
-    margin-left: 8.8em;
-    margin-bottom: .25em;
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    max-width: 350px;
+    margin: auto;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 
-/*
-#summary {
-    background-color:#e6ecf2 ;
-    max-width: 200px;
-    height:120px;
-    margin:15px;
-    padding: 5px 15px 15px 15px;
-    font-size: 13px;
-
+.storm {
+    margin: 5px;
+    padding: 5px;
+    display: block;
 }
 
 .forecast {
@@ -142,10 +127,11 @@ th {
 
 .hero {
     display: block;
-    height: 500px;
-    background-image: url(/lesson5/images/rainboots.jpg);
+    height: 400px;
+    background-image: url(/lesson11/images/fishhavenhero.jpg);
     background-size: cover;
     padding: 10px;
+   
 
 }
 
@@ -169,6 +155,21 @@ th {
     text-align: center;
 }
 
+
+/*id selectors*/
+
+#summary {
+    background-color:#e6ecf2 ;
+    opacity: 80%;
+    max-width: 200px;
+    height:auto;
+    margin:15px;
+    padding: 5px 15px 15px 15px;
+    font-size: 13px;
+    border-radius: 8px;
+
+}
+
 #personas {
    margin-bottom: 1em;
 }
@@ -182,21 +183,41 @@ th {
 #grid {
     display: grid;
 }
-*/
 
-#logo{
+#logo {
     max-width: 50px;
-    margin-left:43em;
-    margin-top: 0em;
+     margin-left:43em;
+     margin-top: 0em;
+ }
+
+#article_img {
+    grid-column: 2/3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: block;
+    margin: auto;
 }
 
-div.weatherphoto {
-    width: 400px;
-    background-color: #e6ecf2;
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
-    margin-bottom: 15px;
+#tagline {
+    max-width: 500px;
+    margin-left: 550px;
+    padding-bottom: 0.5em;
 }
-div.weatherphoto p {
+ 
+#events {
     text-align: center;
-    padding-top: 1px;
+    list-style: none;
+    padding-top: 0px;
+    padding-bottom: 1em;
+
+}
+
+#eventstitle {
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+#pancakes {
+    text-align: center;
+    color: rgb(150, 7, 50);
 }
