@@ -113,3 +113,14 @@ fullDate += ' ' + year;
 
 /* full date */ 
 document.querySelector('#current-date').textContent = fullDate;
+
+
+
+
+//hamburgermenu
+const hambutton = document.querySelector(".ham");
+hambutton.addEventListener("click", toggleMenu, false);
+
+function toggleMenu() {
+  document.querySelector(".navigation").classList.toggle("responsive");
+}
