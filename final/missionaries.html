@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Missionaries Services</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+</head>
+<div id="logoimg"><img src="images/Screen Shot 2020-04-04 at 6.47.32 PM.png" alt="" id="logo"></div>
+<header>
+    <nav>
+        <ul>
+            <li><a href="templeinnsuites.html">Home</a></li>
+            <li><a href="temples.html">Temples</a></li>
+            <li><a href="reservation.html">Reservations</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <!--
+        A FULL-TIME TEMPLE MISSIONARY page that provides information and images about the 
+        suites offered at the hotel with a simple Contact Us form for more details. -->
+    
+        <h1>Full-Time Missionaries</h1>
+        <section id="mistext">
+            <div id="misdiv">
+                <p>At the Temple Inn & Suites, we offer complementary services. Including suites reserved for full-time missionaries. If you
+                    or some full time missionaries would like to reserve a suite let us know by filling out the form below! 
+                </p>
+            </div>
+        </section>
+        
+
+        <!--IMAGES OF SUITES-->
+        <section class="suiteimg" id="images">
+       <div class="suiteimgs"><img src="https://www.trumphotels.com/uploads/18482/0/cloudinary/trump-hotels-cloudinary/image/upload/x_100,y_67,w_1800,h_1199,c_crop/c_fill,w_910,ar_65:38/v1541016977/oi97tfsmchvvpm6nhsua.jpg" alt="" id="suite1">
+        <img src="https://www.lonelyplanet.com/news/wp-content/uploads/2018/07/The-Plaza-A-Fairmont-Managed-Hotel-Plaza-Royal-Suite-1260625.jpg" alt="" id="suite2">
+    <img src="https://s3.amazonaws.com/markhotel-production/app/uploads/2015/04/try-2-2000x1333.jpg" alt="" id="suite3">
+<img src="https://pix10.agoda.net/hotelImages/49780/-1/fa5835b13837c2f6e4e2c3e3a662773a.jpg?s=1024x768" alt="" id="suite4"></div>
+     </section>
+ 
+
+    
+    <form action="thanks.html" method="GET">
+
+        <!--CONTACT US FORM-->
+        <div class="pgform">
+            <!--NAME-->
+            <label for="fullName">Full Name: </label>
+            <input type="text" id="fullName" name="fullName" required>
+        </div>
+
+        <div class="pgform">
+            <!--EMAIL-->
+            <label for="email">Email: </label>
+            <input type="text" id="email" name="email" placeholder="example@domain.com">
+        </div>
+
+        <div class="pgform">
+            <!--QUESTIONS/COMMENTS-->
+            <label for="addComments">Questions/Comments: </label> <br>
+            <textarea name="addComments" id="addComments" cols="50" rows="10"></textarea>
+        </div>
+
+        <div class="pgform">
+            <!--SUBMIT BUTTON-->
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+
+    <footer>
+        &copy; Temple Inn & Suites | <span id="current-date"></span> | Jessica Newberry
+    </footer>
+</body>
+<script src = "scripts/snowflaketemple.js"></script>
+
+</html>

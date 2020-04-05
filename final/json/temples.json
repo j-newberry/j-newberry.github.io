@@ -1,0 +1,184 @@
+[
+    {
+        "templeName": "Snowlake Arizona Temple",
+        "streetLine1": "1875 W Canyon Dr",
+        "streetLine2": "",
+        "city": "Snowflake",
+        "state": "AZ",
+        "country": "United States",
+        "zip": "85937",
+        "telephone": "(928)536-6626",
+        "email": "snowflakeaztemple@ldsmail.com",
+        "services": [
+            "No clothing rental available",
+            "No cafeteria available",
+            "No patron housing available",
+            "Distribution center nearby"
+        ],
+        "history": [
+            {
+                "date": "2 April 2000",
+                "milestone": "Announced"
+            },
+            {
+                "date": "23 September 2000",
+                "milestone": "Groundbreaking"
+            },
+            {
+                "date": "3 March 2002",
+                "milestone": "Dedicated"
+            }
+        ],
+        "schedule": [
+            {
+                "baptisms": "Tuesday - Saturday, 8:00am - 1:00pm",
+                "initiatory": "Tuesday - Saturday, 9:00am - 12:00pm",
+                "endowment": "Tuesday - Saturday, 10:00am - 2:00pm",
+                "sealings": "Tuesday - Saturday, 11:00am - 3:00pm"
+            }
+        ],
+        "closures": [
+            "Friday, April 24, 2020 (Limited hours)",
+            "Monday, May 25, 2020",
+            "Monday, June 15, 2020 (Limited hours)",
+            "Wednesday, July 1 - Saturday, July 5 (Limited hours)"
+        ],
+        "image": "https://assets.ldscdn.org/28/e7/28e7503bb1ca0f68b265d55f20403f21c223e948/snowflake_temple_lds.jpeg"
+    },
+    {
+        "templeName": "Trujillo Peru Temple",
+        "streetLine1": "Av. Mansiche Km 3.5",
+        "streetLine2": "Carretera hacia Huanchaco",
+        "city": "Huanchaco, Trujillo",
+        "state": "La Libertad",
+        "country": "Peru",
+        "zip": "",
+        "telephone": "(51)44-602-130",
+        "email": "trujilloperutemple@ldsmail.com",
+        "services": [
+            "No clothing rental available ",
+            "Cafeteria available",
+            "Patron housing available",
+            "Distribution center nearby"
+        ],
+        "history": [
+            {
+                "date": "26 November 2008",
+                "milestone": "Announced"
+            },
+            {
+                "date": "14 September 2011",
+                "milestone": "Groundbreaking"
+            },
+            {
+                "date": "21 June 2015",
+                "milestone": "Dedicated"
+            }
+        ],
+        "schedule": [
+            {
+                "baptisms": "Tuesday - Friday, 8:00am - 12:00pm",
+                "initiatory": "Monday - Friday, 9:00am - 12:00pm",
+                "endowment": "Monday - Friday, 10:00am - 12:00pm",
+                "sealings": "Monday - Saturday, 11:00am - 2:00pm"
+            }
+        ],
+        "closures": [
+            "Monday, May 25, 2020",
+            "Thursday, June 25 - Saturday, June 27, 2020 (Limited hours)",
+            "Friday, July 3, 2020"
+        ],
+        "image": "https://assets.ldscdn.org/98/e0/98e05cb168f7720698c8dd2dcf171754e4676f4f/trujillo_peru_temple_exterior.jpg"
+    },
+    {
+        "templeName": "Helsinki Finland Temple",
+        "streetLine1": "Leppasillatie 3",
+        "streetLine2": "FI-02620 Espoo",
+        "city": "",
+        "state": "",
+        "country": "Finland",
+        "zip": "",
+        "telephone": "(358) 9-849-3710",
+        "email": "helsinkifinlandtemple@ldsmail.com",
+        "services": [
+            "No clothing rental available",
+            "No cafeteria available",
+            "Patron housing available",
+            "Distribution center nearby"
+        ],
+        "history": [
+            {
+                "date": "2 April 2000",
+                "milestone": "Announced"
+            },
+            {
+                "date": "29 March 2003",
+                "milestone": "Groundbreaking"
+            },
+            {
+                "date": "22 October 2006",
+                "milestone": "Dedicated"
+            }
+        ],
+        "schedule": [
+            {
+                "baptisms": "Tuesday - Saturday, 8:00am - 1:00pm",
+                "initiatory": "Tuesday - Friday, 10:00am - 12:00pm",
+                "endowment": "Tuesday - Saturday, 10:00am - 1:00pm",
+                "sealings": "Monday - Saturday, 11:0am - 3:00pm"
+            }
+        ],
+        "closures": [
+            "Wednesday, April 22, 2020",
+            "Monday, May 25, 2020",
+            "Thursday, June 18, 2020 (Limited hours)",
+            "Thursday, July 23, 2020 (Limited hours)"
+        ],
+        "image": "https://assets.ldscdn.org/9d/f1/9df1a751ef9a0025d742e5589b1707b77a447476/helsinki_finland_temple_grounds_flowers.jpeg"
+    },
+    {
+        "templeName": "Paris France Temple ",
+        "streetLine1": "46 Boulevard Saint Antoine",
+        "streetLine2": "78150 Le Chesnay",
+        "city": "",
+        "state": "",
+        "country": "France",
+        "zip": "",
+        "telephone": "(33) 970-73-70-00",
+        "email": "parisfrancetemple@ldsmail.com",
+        "services": [
+            "Clothing rental available",
+            "No cafeteria available",
+            "Patron housing available",
+            "Distribution center nearby"
+        ],
+        "history": [
+            {
+                "date": "1 October 2011",
+                "milestone": "Announced"
+            },
+            {
+                "date": "24 August 2012",
+                "milestone": "Gorundbreaking"
+            },
+            {
+                "date": "21 May 2017",
+                "milestone": "Dedication"
+            }
+        ],
+        "schedule": [
+            {
+                "baptisms": "Monday - Saturday, 9:00am - 12:00pm",
+                "initiatory": "Monday - Friday, 10:00am - 1:00pm",
+                "endowment": "Tuesday - Friday, 11:00am - 2:00pm",
+                "sealings": "Monday - Friday, 11:0am - 2:00pm"
+            }
+        ],
+        "closures": [
+            "Saturday, April 18,2020",
+            "Wednesday, May 27, 2020 (Limitied hours)",
+            "Monday, June 15, 2020 (Limited hours)"
+        ],
+        "image": "https://assets.ldscdn.org/e4/bf/e4bf989d13eb500735fb2871f90c0c1cf7dde419/paris_france_temple_exterior.jpeg"
+    }
+]

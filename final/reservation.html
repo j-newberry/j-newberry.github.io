@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Reservations</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles/normalize.css"> 
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+</head>
+<div id="logoimg"><img src="images/Screen Shot 2020-04-04 at 6.47.32 PM.png" alt="" id="logo"></div>
+<header>
+    <nav>
+        <ul>
+            <li><a href="templeinnsuites.html">Home</a></li>
+            <li><a href="temples.html">Temples</a></li>
+            <li><a href="reservation.html">Reservations</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+    </nav>
+</header>
+<body>
+    <!--The reservation page contains a form that collects relevant information when making 
+        a normal stay reservation including the LOCATION, DATE, NUMBER and TYPE OF ROOM, registrant's 
+        FULL NAME, EMAIL, PHONE, HOME STATE OR COUNTRY, and SPECIAL ACCOMODATIONS/COMMENTS. You will 
+        need to use the CSS flex method for the layout of your reservation form for full credit.-->
+<h1>Make a Reservation</h1>
+    <main>
+        <form action="thanks.html" method="GET">
+            <div class="resForm">
+                <!--LOCATION-->
+                <label for="location">Temple Location: </label>
+                <select name="location" id="location">
+                <option value="" selected disabled>Select Location...</option>
+                <option value="snowflake">Snowflake, AZ</option>
+                <option value="paris">Paris, France</option>
+                <option value="peru">Trujillo, Peru</option>
+                <option value="finland">Helsinki, Finland</option>
+                </select>
+            </div>
+        
+            <div class="resForm">
+                 <!--START DATE-->
+                 <label for="stormDate">Reservation Start Date: </label>
+                 <input type="date" id="stormDate" name="stormDate">
+            </div>
+            <div class="resForm">
+                <!--END DATE-->
+                <label for="stormDate">Reservation End Date: </label>
+                <input type="date" id="stormDate" name="stormDate">
+           </div>
+               
+            <div class="resForm">
+                 <!--NUMER/TYPE OF ROOM-->
+                <label for="roomType">Room Type: </label>
+                    <input list="roomType">
+                    <datalist id="roomType">
+                        <option value="Single">
+                        <option value="Double">
+                        <option value="Triple">
+                        <option value="Quad">
+                        <option value="Queen">
+                        <option value="Double-Double">
+                        <option value="Suite">
+                    </datalist>
+            </div>
+            <div class="pgform">
+                 <!--FULL NAME-->
+                <label for="fullName">Full Name: </label>
+                <input type="text" id="fullName" name="fullName" required>
+            </div>
+       
+            <div class="pgform">
+                <!--EMAIL-->
+                <label for="email">Email: </label>
+                <input type="text" id="email" name="email" placeholder="example@domain.com">
+            </div>
+       
+            <div class="pgform">
+                <!--PHONE-->
+                <label for="phone">Phone Number: </label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+        
+            <div class="pgform">
+                <!--HOME COUNTRY-->
+                <label for="country">Your Home Country: </label>
+                <input type="text" id="country" name="country" required>
+            </div>
+
+            <div class="pgform">
+                <!--HOME STATE-->
+                <label for="state">Your Home State: </label>
+                <input type="text" id="state" name="state" required>
+            </div>
+
+            <div class="pgform">
+                <!--SPECIAL ACCOMODATIONS/COMMENTS-->
+                <label for="addComments">Additional Information/Comments: </label> <br>
+                <textarea name="addComments" id="addComments" cols="50" rows="10"></textarea>
+            </div>
+            
+            <div class="pgform">
+                <!--SUBMIT BUTTON-->
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+            </form>
+            </main>
+
+     <footer>
+        &copy; Temple Inn & Suites | <span id="current-date"></span> | Jessica Newberry
+    </footer>
+</body>
+<script src = "scripts/snowflaketemple.js"></script>
+
+</html>

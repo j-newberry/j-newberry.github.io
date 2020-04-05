@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles/normalize.css"> 
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+</head>
+<div id="logoimg"><img src="images/Screen Shot 2020-04-04 at 6.47.32 PM.png" alt="" id="logo"></div>
+<header>
+    <nav>
+        <ul>
+            <li><a href="templeinnsuites.html">Home</a></li>
+            <li><a href="temples.html">Temples</a></li>
+            <li><a href="reservation.html">Reservations</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+    </nav>
+</header>
+<body>
+    <!--CONTACT US-->
+    <h1>Contact Us!</h1>
+
+    <p id="contactp">We know there are always questions and concerns related to travel plans. Please let us know what those are!</p>
+
+<section class="contact">
+    <form action="thanks.html" method="GET">
+    <div class="pgform">
+        <!--NAME-->
+        <label for="fullName">Full Name: </label>
+        <input type="text" id="fullName" name="fullName" required>
+    </div>
+
+    <div class="pgform">
+        <!--EMAIL-->
+        <label for="email">Email: </label>
+        <input type="text" id="email" name="email" placeholder="example@domain.com">
+    </div>
+
+    <div class="pgform">
+        <!--PHONE-->
+        <label for="phone">Phone Number: </label>
+        <input type="tel" id="phone" name="phone" required>
+    </div>
+
+    <div class="pgform">
+        <!--QUESTIONS/COMMENTS-->
+        <label for="addComments">Questions/Comments: </label> <br>
+        <textarea name="addComments" id="addComments" cols="50" rows="10"></textarea>
+    </div>
+
+    <div class="pgform">
+        <!--SUBMIT BUTTON-->
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </div>
+
+</form>
+</section>
+<section class="contact">
+<div id="map">
+        <!--address-->
+        <address>
+            Temple Inn & Suites<br>
+            4800 Montgomery Ln #300,<br>
+            Bethesda, MD 2081<br>
+        </address>
+       
+   
+        <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d49622.43720419471!2d-77.1305512524909!3d38.98331328628454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!3m2!1d38.9832518!2d-77.0955318!5e0!3m2!1sen!2sus!4v1585955471097!5m2!1sen!2sus" width="50%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+        </iframe>
+    </div>
+</section>
+
+<footer>
+    &copy; Temple Inn & Suites | <span id="current-date"></span> | Jessica Newberry
+</footer>
+</body>
+<script src = "scripts/snowflaketemple.js"></script>
+
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Receptions Services</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles/normalize.css"> 
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+</head>
+<div id="logoimg"><img src="images/Screen Shot 2020-04-04 at 6.47.32 PM.png" alt="" id="logo"></div>
+<header>
+    <nav>
+        <ul>
+            <li><a href="templeinnsuites.html">Home</a></li>
+            <li><a href="temples.html">Temples</a></li>
+            <li><a href="reservation.html">Reservations</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+    </nav>
+</header>
+<body>
+    <!--The services page provides a list with information of the amenities and special services 
+        offered at the hotel along with the following sub pages/content:
+        The RECEPTION PAGE displaying information about the wedding reception accommodations, 
+        including options for food service and setup.
+        A FULL-TIME TEMPLE MISSIONARY page that provides information and images about the 
+        suites offered at the hotel with a simple Contact Us form for more details. -->
+
+        
+            <h1>Receptions</h1>
+
+        <section id="rectext">
+            <div id="recdiv">
+            <p>The Temple Inn & Suites has a number of services and locations for wedding receptions close to our temple areas.
+            Each hotel has areas for receptions indoors, and outdoors! We would like to work with you for details pertaining to
+            your big day! Set up and take-down fees are included in the reception package. Prices vary in certain locations.</p>
+            <p>If you wish to have a food service or catering, we offer that as well! We cater menus from our own hotel as well as
+            local catering companies nearby.</p>
+            <p>If you wish to make a reservation or have any questions please let us know in the form below.</p>
+            </div>  
+        </section>
+   
+        <form action="thanks.html" method="GET" id="receptionform">
+        <!--CONTACT US FORM-->
+        <div class="pgform">
+            <!--NAME-->
+            <label for="fullName">Full Name: </label>
+            <input type="text" id="fullName" name="fullName" required>
+        </div>
+
+        <div class="pgform">
+            <!--EMAIL-->
+            <label for="email">Email: </label>
+            <input type="text" id="email" name="email" placeholder="example@domain.com">
+        </div>
+
+        <div class="pgform">
+            <!--PHONE-->
+            <label for="phone">Phone Number: </label>
+            <input type="tel" id="phone" name="phone" required>
+        </div>
+
+        <div class="pg">
+            <!--QUESTIONS/COMMENTS-->
+            <label for="addComments">Questions/Comments: </label> <br>
+            <textarea name="addComments" id="addComments" cols="50" rows="10"></textarea>
+        </div>
+
+        <div class="pgform">
+            <!--SUBMIT BUTTON-->
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+        </form>
+
+    <footer>
+        &copy; Temple Inn & Suites | <span id="current-date"></span> | Jessica Newberry
+    </footer>
+</body>
+<script src = "scripts/snowflaketemple.js"></script>
+
+</html>
